@@ -101,4 +101,4 @@
 - **Página:** `Vertex-Portal-Web/src/content/projects.ts` (caso "Vertex Nexo")
 - **Hallazgo:** el texto de resultados afirma "cumplimiento estricto de normas AGN y Ley 594" (normativa archivística colombiana) — es una afirmación legal/regulatoria concreta, no genérica.
 
-> **Conclusión:** No se encontraron cifras infladas ni frases tipo "los mejores / número 1 / pioneros" en el copy revisado. Queda pendiente que el equipo de Vertex confirme que la afirmación de cumplimiento normativo del caso "Vertex Nexo" es exacta antes de publicarla.
+> **Conclusión:** No se encontraron cifras infladas ni frases tipo "los mejores / número 1 / pioneros" en el copy revisado. .
