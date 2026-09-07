@@ -64,3 +64,12 @@
 
 **Conclusión de la revisión:**  
 Se validó la unicidad de las etiquetas de título en todas las rutas del repositorio. La estructura bilingüe responde correctamente a los requerimientos de internacionalización (i18n), manteniendo la consistencia semántica y los diferenciadores clave de Vertex tanto en las URLs en español como en inglés, sin presentar duplicidades que afecten el rastreo de los motores de búsqueda.
+
+2) Verificación del idioma principal del documento
+   
+* **Configuración técnica:** Vertex-Portal-Web/src/app/[locale]/layout.tsx ==>  
+  **Propiedad:** `<html lang={locale}>`
+
+**Conclusión de la revisión:**  
+El idioma principal del documento no se encuentra estático de manera global, sino que se administra dinámicamente a través del parámetro de ruta centralizado (`[locale]`) provisto por Next.js. Esto garantiza que cuando el usuario navega en el entorno en español, el servidor inyecta de forma limpia la etiqueta `lang="es"`, y al cambiar al entorno en inglés, conmuta de inmediato a `lang="en"`. Con este comportamiento dinámico se cumple estrictamente con el estándar de accesibilidad internacional, permitiendo que tanto los lectores de pantalla como los indexadores de los motores de búsqueda identifiquen correctamente las variaciones lingüísticas del portal de Vertex.
+
