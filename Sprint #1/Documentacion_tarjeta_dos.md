@@ -1,7 +1,5 @@
 ### Revisión metadatos básicos de SEO
 
-**Repositorio:** `github.com/ray71mendoza/Vertex-Portal-Web`
-
 ---
 
 1) Revisión títulos únicos por página
