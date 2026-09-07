@@ -44,7 +44,7 @@
 | `.../[locale]/contacto | contact` | Ponte en contacto con el equipo de Vertex. Desarrollamos soluciones tecnológicas y de comunicación para empresas y entidades públicas en Colombia. |
 | `.../[locale]/privacidad | privacy` | Política de privacidad y tratamiento de datos personales de Vertex. |
 | `.../[locale]/terminos | terms` | Términos y condiciones de uso del portal web de Vertex. |
-| `.../[locale]/not-found.tsx` | La página solicitada no existe o ha sido movida. |
+
 
 > **Conclusión:** Cada ruta define su propia descripción dentro de `generateMetadata`, redactada según el contenido específico de esa página. No se encontró reutilización de un mismo texto de descripción entre rutas distintas.
 
