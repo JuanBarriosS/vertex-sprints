@@ -125,9 +125,7 @@ El idioma principal del documento no se encuentra estático de manera global, si
 **Conclusión de la revisión:**
 Se realizó la auditoría técnica del favicon corporativo alojado en la raíz del App Router de Next.js. Se confirmó que el recurso cuenta con fondo transparente, evitando parches visuales en navegadores con modo oscuro activo. Asimismo, su peso optimizado garantiza que no afecte el rendimiento de carga inicial de la plataforma. El icono se despliega de manera nítida e idéntica tanto en las rutas en español como en inglés, asegurando la consistencia de la identidad visual de Vertex en toda la sesión del usuario.
 
-5) Revisión de metadatos para compartir en LinkedIn (Open Graph y Twitter Card)
-
-* **¿Qué es esto?** `openGraph` es el estándar (creado por Facebook, usado también por LinkedIn y WhatsApp) que define qué imagen, título y descripción se muestran cuando alguien pega el link de una página en un chat o red social. `twitter` (Twitter Card, hoy la red X) es el mismo concepto pero con las etiquetas propias que usa esa plataforma para generar su propia vista previa. Next.js permite declarar ambos dentro de la misma función `generateMetadata`, y son independientes de `title`/`description` (esos son los que ve Google; `openGraph`/`twitter` son los que ve la persona que recibe el link compartido).
+5) Revisión de metadatos para compartir en LinkedIn
 
 * **Página:** Vertex-Portal-Web/src/app/[locale]/page.tsx ==>
   **openGraph / twitter:** presentes, con imagen `/images/vertex-wallpaper-dark.png` (1200x630).
@@ -160,10 +158,10 @@ Se realizó la auditoría técnica del favicon corporativo alojado en la raíz d
   **openGraph / twitter:** ausentes — solo tiene `title`, `description` y `alternates`.
 
 * **Página:** Vertex-Portal-Web/src/app/[locale]/terminos | terms ==>
-  **openGraph / twitter:** ausentes — solo tiene `title`, `description` y `alternates`.
+  **openGraph / twitter:** ausentes — solo tiene title, description y alternates.
 
 **Conclusión de la revisión:**
-La mayoría de las páginas ya cuentan con `openGraph` y `twitter` propios, con imagen social de 1200x630 px. Las páginas de Privacidad y Términos (ES/EN) quedan pendientes: al no tener estas etiquetas, un link a esas páginas compartido en LinkedIn no generará una vista previa con imagen ni descripción.
+La mayoría de las páginas ya cuentan con openGraph y twitter propios, con imagen social de 1200x630 px. Las páginas de Privacidad y Términos (ES/EN) quedan pendientes: al no tener estas etiquetas, un link a esas páginas compartido en LinkedIn no generará una vista previa con imagen ni descripción.
 
 6) Verificación de una sola etiqueta h1 por página
 
