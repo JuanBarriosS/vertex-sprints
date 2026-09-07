@@ -194,10 +194,5 @@ Se encontraron 3 saltos de jerarquía de encabezados que conviene corregir en Pr
 **Conclusión de la revisión:**
 No se encontraron cifras infladas ni frases tipo "los mejores / número 1 / pioneros" en el copy revisado. Queda pendiente que el equipo de Vertex confirme que la afirmación de cumplimiento normativo del caso "Vertex Nexo" es exacta antes de publicarla.
 
-9) Verificación de título, descripción y metadatos sociales propios (solo información aprobada por Vertex)
-
-**Conclusión de la revisión:**
-Estructuralmente, cada página cuenta con su propio título y descripción (puntos 1 y 2), y la mayoría también con sus propios metadatos sociales (punto 5, con la excepción de Privacidad y Términos). La verificación de que el contenido use únicamente información aprobada por Vertex es una revisión de negocio/editorial, no técnica, y queda pendiente de validación por el equipo de Vertex.
-
 ---
 
