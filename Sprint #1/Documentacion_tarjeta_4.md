@@ -1,4 +1,4 @@
-# Respuesta a Subtareas — Revisar la adaptación responsive
+# Revisar la adaptación responsive
 ## Tarjeta 4: Vertex Portal Web
 
 &gt; **Objetivo:** Comprobar que el sitio conserve una presentación legible y funcional en móvil, tableta y escritorio, sin desplazamiento horizontal involuntario, desbordamiento ni problemas de distribución.
