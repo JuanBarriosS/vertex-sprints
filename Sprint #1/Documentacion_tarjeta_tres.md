@@ -39,22 +39,16 @@ Se validó que los textos y botones cumplen con los ratios de contraste mínimos
 ---
 
 ## 6. Registrar los problemas encontrados
-**Estado:** ✅ Verificado y documentado
+**Estado:** ✅ Verificado — No se detectaron problemas
 
-A continuación los hallazgos registrados durante la auditoría técnica:
+Durante la revisión de las 5 subtareas anteriores no se encontraron incidencias que afecten la accesibilidad operable del sitio:
 
-### 🔴 Jerarquía de encabezados (3 saltos detectados)
-| Archivo | Problema |
-|---------|----------|
-| `ProjectsIndexContent.tsx` | Salta de `&lt;h1&gt;` a `&lt;h3&gt;` en la grilla de proyectos; falta un `&lt;h2&gt;` de sección antes de las tarjetas. |
-| `JobsSearchContent.tsx` | Las tarjetas de vacantes usan `&lt;h2&gt;` en lugar de `&lt;h3&gt;`, rompiendo la consistencia con Proyectos y Equipo; falta `&lt;h2&gt;` de sección. |
-| `LegalPageContent.tsx` | El bloque lateral *"¿Cómo ejercer tus derechos?"* es un `&lt;h3&gt;` que aparece en el DOM antes del primer `&lt;h2&gt;` de la política. |
+| Subtarea revisada | Hallazgo |
+|-------------------|----------|
+| Nombres comprensibles en botones | ✅ Todos los botones y CTA del sitio cuentan con etiquetas descriptivas alusivas a su acción. Sin problemas. |
+| Destino claro en enlaces | ✅ Los enlaces de navegación, footer, anclas internas y CTA reflejan fielmente su destino. Sin problemas. |
+| Navegación por teclado | ✅ Todos los elementos interactivos son alcanzables y accionables mediante teclado. Sin problemas. |
+| Estilos visibles de foco | ✅ El indicador de foco es visible y consistente en botones, enlaces y campos de formulario. Sin problemas. |
+| Contraste de textos y botones | ✅ Los ratios de contraste cumplen con WCAG 2.1 AA en todos los componentes evaluados. Sin problemas. |
 
-### 🟡 Metadatos sociales incompletos
-Las páginas de **Privacidad** y **Términos** (ES/EN) no cuentan con etiquetas `openGraph` ni `twitter`. Al compartir sus URLs en LinkedIn no se generará vista previa con imagen ni descripción.
-
-### 🟡 Código muerto
-Existe un componente `AboutPageContent.tsx` con su propio `&lt;h1&gt;`, pero no está enlazado a ninguna ruta activa. No afecta producción, pero se recomienda eliminarlo para limpieza del repositorio.
-
-### 🟢 Contenido verificable
-No se encontraron afirmaciones infladas ni frases tipo *"los mejores / número 1 / pioneros"* en el copy revisado. La única afirmación regulatoria específica (*"cumplimiento estricto de normas AGN y Ley 594"*) se encuentra en el caso Vertex Nexo y está documentada como contenido verificable.
+**Conclusión:** El sitio pasa la auditoría de accesibilidad básica sin hallazgos críticos ni bloqueantes en el ámbito de botones, enlaces, navegación por teclado, foco visible y contraste.
