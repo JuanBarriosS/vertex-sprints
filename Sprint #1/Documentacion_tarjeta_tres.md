@@ -1,4 +1,4 @@
-# Respuesta a Subtareas de Accesibilidad — Vertex Portal Web
+# Accesibilidad basica del sitio — Vertex Portal Web
 
 ## 1. Revisar que los botones tengan nombres comprensibles
 **Estado:** ✅ Verificado
